@@ -5757,6 +5757,8 @@
 
     iput v0, v1, Lcom/android/internal/policy/PhoneWindow;->mNavigationBarColor:I
 
+    invoke-static/range {p0 .. p0}, Lcom/android/internal/policy/PhoneWindowInjector;->onNavigationBarColorChange(Lcom/android/internal/policy/PhoneWindow;)V
+
     .line 4042
     :cond_17
     const/16 v21, 0x2e
@@ -7997,6 +7999,8 @@
     invoke-virtual {p0}, Lcom/android/internal/policy/PhoneWindow;->getContext()Landroid/content/Context;
 
     move-result-object v2
+
+    invoke-virtual {v2}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     invoke-static {v2}, Landroid/media/session/MediaSessionLegacyHelper;->getHelper(Landroid/content/Context;)Landroid/media/session/MediaSessionLegacyHelper;
 
@@ -10773,6 +10777,8 @@
 
     .line 5356
     :cond_0
+    invoke-static {p0}, Lcom/android/internal/policy/PhoneWindowInjector;->onNavigationBarColorChange(Lcom/android/internal/policy/PhoneWindow;)V
+    
     return-void
 .end method
 
