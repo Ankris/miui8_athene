@@ -11,7 +11,7 @@ local-remove-apps :=
 local-modified-jars := org.cyanogenmod.platform
 
 local-miui-removed-apps := 
-local-miui-modified-apps := 
+local-miui-modified-apps := TeleService
 local-miui-removed-apps := 
 local-miui-modified-apps :=  
 
