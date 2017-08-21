@@ -10,10 +10,8 @@ local-modified-apps :=
 local-remove-apps :=
 local-modified-jars := org.cyanogenmod.platform
 
-local-miui-removed-apps := 
 local-miui-modified-apps := TeleService
-local-miui-removed-apps := 
-local-miui-modified-apps :=  
+local-miui-removed-apps :=
 
 local-density := XXHDPI
 local-target-bit := 32
