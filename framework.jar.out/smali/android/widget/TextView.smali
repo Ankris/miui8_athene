@@ -25804,6 +25804,8 @@
     .line 8294
     iget-object v7, p0, Landroid/widget/TextView;->mEditor:Landroid/widget/Editor;
 
+    invoke-virtual {v7}, Landroid/widget/Editor;->isInSwipeSelectionMode()Z
+
     move-result v7
 
     .line 8294
